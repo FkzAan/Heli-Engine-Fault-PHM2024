@@ -1,0 +1,5 @@
+Test case,Description,Expected,Actual,Result
+TC01,All seven values valid,ok,ok,Pass
+TC02,One value missing,error,error,Pass
+TC03,Non-numeric value,error,error,Pass
+TC04,Value outside training range,warning,warning,Pass

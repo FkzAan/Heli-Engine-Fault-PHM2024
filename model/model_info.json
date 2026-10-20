@@ -1,0 +1,47 @@
+{
+  "model_name": "XGBoost",
+  "features": [
+    "trq_measured",
+    "oat",
+    "mgt",
+    "pa",
+    "ias",
+    "np",
+    "ng"
+  ],
+  "ranges": {
+    "trq_measured": [
+      14.67,
+      104.73
+    ],
+    "oat": [
+      -19.25,
+      36.76
+    ],
+    "mgt": [
+      467.3,
+      723.4
+    ],
+    "pa": [
+      -208.39,
+      3097.51
+    ],
+    "ias": [
+      0.0,
+      137.56
+    ],
+    "np": [
+      85.01,
+      101.56
+    ],
+    "ng": [
+      90.0,
+      101.17
+    ]
+  },
+  "test_scores": {
+    "accuracy": 0.9995,
+    "f1_score": 0.9994,
+    "engine_sensors_only_accuracy": 0.9211
+  }
+}
